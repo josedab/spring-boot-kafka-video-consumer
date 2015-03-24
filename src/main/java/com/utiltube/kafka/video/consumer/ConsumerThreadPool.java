@@ -22,7 +22,7 @@ import com.utiltube.kafka.config.ConsumerConfigFactory;
 @Component
 public class ConsumerThreadPool {
 
-    private static final String TOPIC = "test";
+    private static final String TOPIC = "video_test";
     private static final Integer NUM_THREADS = 1;
     
     @Autowired

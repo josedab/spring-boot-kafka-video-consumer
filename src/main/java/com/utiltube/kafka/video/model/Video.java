@@ -30,4 +30,10 @@ public class Video {
         return description;
     }
 
+    @Override
+    public String toString() {
+        return "Video [identifier=" + identifier + ", provider=" + provider
+                + ", title=" + title + "]";
+    }
+
 }
